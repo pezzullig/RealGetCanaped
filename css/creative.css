@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: black;
 }
 .bg-dark {
   background-color: #222222;
@@ -156,12 +156,12 @@ header {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/header.jpg');
-  text-align: center;
+  text-align: ;
   color: white;
 }
 header .header-content {
   position: relative;
-  text-align: center;
+  text-align: right;
   padding: 100px 15px 100px;
   width: 100%;
 }
@@ -233,7 +233,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(240, 95, 64, 0.5);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -264,7 +264,7 @@ header .header-content .header-content-inner p {
   font-size: 18px;
 }
 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+  opacity: 0.2;
 }
 .portfolio-box:focus {
   outline: none;
